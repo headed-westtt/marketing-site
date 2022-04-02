@@ -1,14 +1,17 @@
+@use '../../colors';
+
 .card {
-  height: 26rem;
-  width: 21rem;
+  position: absolute;
+  height: 18.75rem;
+  width: 15rem;
   padding: 1rem;
-  background: #fff;
-  color: #050505;
+  background: colors.$white;
+  color: colors.$black;
 
   .card_img {
     background-size: cover;
-    height: 18.25rem;
+    height: 12.75rem;
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.25rem 0;
   }
 }

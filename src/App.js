@@ -4,11 +4,11 @@ import cardInfo from './cardInfo'
 
 export default function App() {
   return (
-    <div>
+    <main className='app'>
       <Header />
-      {cardInfo.map((i) => (
-        <Card key={i.title} info={i} />
+      {cardInfo.map((i, idx) => (
+        <Card key={i.title} info={{ ...i, index: idx }} />
       ))}
-    </div>
+    </main>
   )
 }
