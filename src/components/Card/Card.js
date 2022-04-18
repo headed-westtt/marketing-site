@@ -17,7 +17,7 @@ export default function Card({ info }) {
   }
 
   return (
-    <Draggable bounds='parent' defaultPosition={getDefaultPosition()}>
+    <Draggable defaultPosition={getDefaultPosition()}>
       <div className='card' style={{ zIndex: index }}>
         <div
           className='card_img'
