@@ -5,6 +5,7 @@ const cardInfo = [
     photoUrl:
       'https://images.unsplash.com/photo-1656705123889-b63b6c9d1d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80',
     photoAlt: '',
+    link: 'mailto:support@headedwesttt.com',
   },
   {
     title: 'Westtt',
@@ -12,6 +13,7 @@ const cardInfo = [
     photoUrl:
       'https://images.unsplash.com/photo-1656704903724-f49b0233eaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
     photoAlt: '',
+    link: 'https://westtt.com',
   },
 ]
 

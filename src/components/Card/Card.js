@@ -1,7 +1,7 @@
 import Draggable from 'react-draggable'
 
 export default function Card({ info }) {
-  const { title, description, photoUrl, photoAlt, index } = info
+  const { title, description, photoUrl, photoAlt, index, link } = info
 
   const getDefaultPosition = () => {
     const x =
@@ -25,8 +25,10 @@ export default function Card({ info }) {
           role='img'
           aria-label={photoAlt}
         />
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <a href={link} target='_blank' rel='noreferrer'>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </a>
       </div>
     </Draggable>
   )
