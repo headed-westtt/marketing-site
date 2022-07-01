@@ -4,7 +4,10 @@ export default function Header() {
   return (
     <header className='header'>
       <img src={logo} className='logo' alt='headed westtt logo' />
-      <h1>headed westtt</h1>
+      <div>
+        <h1>headed westtt</h1>
+        <p>a parent company</p>
+      </div>
     </header>
   )
 }
